@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+
+  @media screen and (max-width: 1020px) { /* Large Desktop */ }
+  @media screen and (max-width: 780px) { /* tablet */ }
+  @media screen and (max-width: 480px) { /* mobile */ }
+
+body{
+    /* background-color: lightslategrey; */
+    text-align: center;
+    /* margin-top: 1vw; */
+    background: #ffe259;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Indie Flower', cursive;
+}
+
+h1{
+    color: lightcoral;
+    margin-bottom: 1vh;
+}
+
+input{
+    height: 4vh;
+    font-size: 2vh;
+    text-align: center;
+
+}
+
+button{
+    margin-top: 3vh;
+    height: 5vh;
+    width: 15vh;
+    color: lightcoral;
+    font-size: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 2vh;
+    background-color: lightskyblue;
+}
+
+h1{
+    color: lightcoral;
+    font-size: 7vh;
+}
+
+ button:hover{
+    background: lightseagreen;
+    color: springgreen;
+    outline-offset: -4px;
+    outline: 1px solid rgba(107, 106, 106, 0.918);
+    border-radius: 2vh;
+
+}
+
+button:active {
+    transform: scale(0.99);
+    color: slategray;
+    border-radius: 2vh;
+
+}
+
+form{
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 70vw;
+    margin-left: 25vh;
+    border-radius: 2%;
+}
+
+#reload{
+    color:white;
+    background-color: slategray;
+}
+
+#birthday{
+    margin-top: 1vh;
+}

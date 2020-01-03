@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zeller's Algorithms</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <h1 id="heading">Day of week you were born<p style='font-size:30px;'>&#128118;&#127881;</p></h1>
+        <form onSubmit= "return false"className="card-body">
+                <div className="my-form">
+                    <h2>Enter your day of birth:</h2>
+                  <input
+                    id="day"
+                    type="text"
+                    name="aDay"
+                    placeholder="Day (1 digit format)"
+
+                    />
+                </div>
+                <div className="my-form">
+                        <h2>Enter the month of birth:</h2>
+                  <input
+                    id="month"
+                    type="text"
+                    name="aMonth"
+                    placeholder="Month (1 digit format)"
+                    />
+                </div>
+                <div className="my-form">
+                        <h2>Enter the year of birth:</h2>
+                  <input
+                    id="year"
+                    type="text"
+                    name="aYear"
+                    placeholder="Year (4 digits format)"
+                    />
+                </div>
+                <button onclick="myFunction()" id="submit">Submit</button> <button id="reload" value="Refresh Page" onClick="window.location.reload();">Start again</button>
+
+        </form>
+        <h2>The day of your birth was: <h2 id="birthday" style='font-size:90px;'>&#129300;</h2></h2>
+
+    <script src="app.js"></script>
+</body>
+</html>

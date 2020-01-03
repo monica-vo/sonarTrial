@@ -74,7 +74,6 @@ const displayDay = () => {
     document.querySelector("#birthday").innerHTML = day;
 }
 
-
 const myFunction = () => {
     zellerAlgorithms(d, m, y)
     displayDay();
